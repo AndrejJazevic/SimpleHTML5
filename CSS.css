@@ -1,0 +1,58 @@
+@media screen and (max-width: 800px){
+	header p {
+		font-size: 16px;
+	}
+	article p {
+		font-size: 16px;
+	}
+	aside p {
+		font-size: 16px;
+	}
+	footer p {
+		font-size: 14px;
+	}
+}
+
+article p {
+	color: black;
+	font-weight: normal;
+	font-style: normal
+}
+
+p {
+	font-size: 18px
+}
+
+header > ul > li {
+	font-weight: bold;
+	background: white
+}
+
+img {
+	border: 1px solid
+}
+
+table, tr {
+	border: 1px solid;
+	border-spacing: 0px;
+}
+
+td {
+	border: inherit;
+}
+
+th {
+	border: inherit;
+}
+
+p#dis1 {
+	font-weight: bold;
+	font-size: 30px;
+	display: none;
+}
+
+p#inf1 {
+	font-weight: bold;
+	font-size: 20px;
+	display: none;
+}

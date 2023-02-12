@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="lt">
+	<head>
+		<title>Internetinė parduotuvė</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="scripts/htmljs.js"></script>
+	</head>
+	
+	<body>
+		<script src="IsEmpty.js"></script>
+		<header>
+			<h1>Internetinė parduotuvė</h1>
+			<p>Čia galima pirkti skirtingų kategorijų prekes:</p>
+			<ul>
+				<li>Elektronika</li>
+				<li>Baldai</li>
+				<li>Drabužis</li>
+				<li>Kita</li>
+			</ul>
+		</header>
+		<section>
+		<article>
+			<header>
+				<h2>Elektronika</h2>
+			</header>
+			<h3>Mechaninė klaviatūra (detalės)</h3>
+			<p><img src="pictures/klaviatura.jpg" alt="Mechaninė klaviatūra" title="Mechaninė klaviatūra"></p>
+			<p id="dis1">Dėkojame už pirkimą. Laukite prekę iki nurodytos datos.</p>
+			<p id="inf1">Papildomai (kaip dovaną) Jūs gausite: </p>
+			<table>
+				<tr>
+					<th id="t1">Prietaisas</th>
+					<th id="t2">Reali kaina</th>
+					<th id="t3">Pagaminimo data</th>
+				</tr>
+			</table>
+			<p id="inf2">Kiekis: 20 Kaina: 47.80€</p>
+			<form class="forma-laukas" name="forma" action="Klaviatūra.html">
+				<p id="f1">Kiekis: <input type="text" name="Kiekis"/></p>
+				<p id="f2">Pristatymo data: <input id="in1" type="text" name="Metai" size="1"> <input id="in2" type="text" name="Mėnuo" size="1"> <input id="in3" type="text" name="Diena" size="1"></p>
+				<input class="button-pirkti" type="button" name="Pirkti" value="Pirkti" onclick="MakeOrder()"/>
+			</form>
+		</article>
+		</section>
+	</body>
+</html>
